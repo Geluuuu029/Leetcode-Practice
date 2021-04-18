@@ -1,2 +1,3 @@
 # Leetcode-Practice
-Hi, It is just Leetcode C++ programming practice.
+Hi, I'm Geluuuu029~~~
+I'm working on Leetcode C++ programming practice.
