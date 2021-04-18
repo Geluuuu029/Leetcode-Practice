@@ -1,6 +1,6 @@
 /*
-* Copyright(c) 2021-2021 zhangdong C++ program practice
-* Author: zhangdong
+* Copyright(c) 2021-2021 Geluuuu029 C++ program practice
+* Author: Geluuuu029
 * Date: 2021-03-21
 * Description: 面试题 02.03. 删除中间节点
 *    实现一种算法，删除单向链表中间的某个节点（即不是第一个或最后一个节点），假定你只能访问该节点。

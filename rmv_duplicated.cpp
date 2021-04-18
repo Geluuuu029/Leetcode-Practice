@@ -1,6 +1,6 @@
 /*
-* Copyright(c) 2021-2021 zhangdong C++ program practice
-* Author: zhangdong
+* Copyright(c) 2021-2021 Geluuuu029 C++ program practice
+* Author: Geluuuu029
 * Date: 2021-04-18
 * Description: 26. 删除有序数组中的重复项
 *   给你一个有序数组 nums ，请你 原地 删除重复出现的元素，使每个元素 只出现一次 ，返回删除后数组的新长度。

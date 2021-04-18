@@ -1,6 +1,6 @@
 /*
-* Copyright(c) 2021-2021 zhangdong C++ programing pratice
-* Author: Tony zhangdong
+* Copyright(c) 2021-2021 Geluuuu029 C++ programing pratice
+* Author: Geluuuu029
 * Date: 2021-03-14
 * Description: 不使用任何内建的哈希表库设计一个哈希映射（HashMap）. according Leetcode programing No.706
 *    实现 MyHashMap 类：

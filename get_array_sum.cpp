@@ -1,6 +1,6 @@
 /*
-* Copyright(c) 2021-2021 zhangdong C++ program practice
-* Author: zhangdong
+* Copyright(c) 2021-2021 Geluuuu029 C++ program practice
+* Author: Geluuuu029
 * Date: 2021-03-21
 * Description: 1480. 一维数组的动态和
 *   给你一个数组 nums 。数组「动态和」的计算公式为：runningSum[i] = sum(nums[0]…nums[i]) 。

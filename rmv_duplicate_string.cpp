@@ -1,6 +1,6 @@
 /*
-* Copyright(c) 2021-2021 zhangdong C++ programing pratice
-* Author: Tony zhangdong
+* Copyright(c) 2021-2021 Geluuuu029 C++ programing pratice
+* Author: Geluuuu029
 * Date: 2021-03-14
 * Description: 1047. 删除字符串中的所有相邻重复项
 *  给出由小写字母组成的字符串 S，重复项删除操作会选择两个相邻且相同的字母，并删除它们。

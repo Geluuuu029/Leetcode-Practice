@@ -1,0 +1,41 @@
+# 1 "D:\\Geluuuu029\\TestCode\\.vscode\\launch.json"
+# 1 "D:\\Geluuuu029\\TestCode//"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "D:\\Geluuuu029\\TestCode\\.vscode\\launch.json"
+{
+
+
+
+
+    "version": "0.2.0",
+    "configurations": [
+        {
+
+            "name": "C++ Launch (GDB) in windows",
+
+            "type": "cppdbg",
+
+            "request": "launch",
+
+            "launchOptionType": "Local",
+
+
+            "targetArchitecture": "x86",
+
+            "program": "${workspaceRoot}/${fileBasenameNoExtension}.exe",
+
+            "miDebuggerPath":"D:\\Tools\\mingw64\\bin\\gdb.exe",
+
+            "args": [],
+
+            "stopAtEntry": false,
+
+            "cwd": "${workspaceRoot}",
+
+            "externalConsole": false,
+
+            "preLaunchTask": "g++"　　
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 /*
-* Copyright(c) 2021-2021 zhangdong C++ program practice
-* Author: zhangdong
+* Copyright(c) 2021-2021 Geluuuu029 C++ program practice
+* Author: Geluuuu029
 * Date: 2021-03-21
 * Description: 剑指 Offer 58 - II. 左旋转字符串
 *    字符串的左旋转操作是把字符串前面的若干个字符转移到字符串的尾部。
