@@ -18,9 +18,70 @@
 *       输出：false
 *
 *      提示：
-*        0 <= nums.length <= 2 * 104
-*        -231 <= nums[i] <= 2^31 - 1
+*        0 <= nums.length <= 2 * 10^4
+*        -2^31 <= nums[i] <= 2^31 - 1
 *        0 <= k <= 10^4
 *        0 <= t <= 2^31 - 1
 *
 */
+
+
+#include <vector>
+#include <iostream>
+
+using namespace std;
+
+class Solution {
+public:
+    Solution() {};
+    ~Solution() {};
+
+    bool ContainsNearbyAlmostDuplicateNormal(const vector<int>& nums, int k, int t);
+    bool ContainsNearbyAlmostDuplicate(const vector<int>& nums, int k, int t);
+};
+
+/*
+Normal algorighm: 
+1. traverse vector, compare prev pos value and current pos value
+2. if equal then remove current pos
+3. move prev and current pos to next pos
+*/
+bool Solution::ContainsNearbyAlmostDuplicateNormal(const vector<int>& nums, int k, int t) {
+
+
+    return true;
+}
+
+/*
+Fast algorighm: only assign value, not delete pos.
+1. traverse vector, compare prev pos value and current pos value
+2. if equal then move current pos to next pos
+3. if not equal then set current pos value to prev + 1 pos 
+4. move prev and current pos to next pos
+*/
+bool Solution::ContainsNearbyAlmostDuplicate(const vector<int>& nums, int k, int t) {
+
+    return true;
+}
+
+int main() {
+
+    vector<vector<int>> testNums = {
+        {3,0,   1,2,3,1},
+        {1,2,   1,0,1,1},
+        {2,3,   1,5,9,1,5,9},
+        {0,0}
+    };
+
+    for(int x = 0; x < testNums.size(); ++x) {
+        int k = testNums[x][0];
+        int t = testNums[x][1];
+
+        vector<int> nums(testNums[x].begin() + 2, testNums[x].end());
+
+        bool contained = Solution().ContainsNearbyAlmostDuplicateNormal(nums, k, t);
+        cout << "result is : " << contained << endl;
+    }
+
+    return 0;
+}
